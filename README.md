@@ -200,6 +200,16 @@ git add .
 git commit -m "Deploy Ready v3.0"
 git push
 
+requirements.txt
+v2
+Flask
+gunicorn
+
+
+Procfile
+v2
+web: gunicorn app:app
+
 
 
 
